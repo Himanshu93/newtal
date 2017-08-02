@@ -1,0 +1,9 @@
+E:\hcSoft\newtal\newtal\newtal\bin\Debug\newtal.exe.config
+E:\hcSoft\newtal\newtal\newtal\bin\Debug\newtal.exe
+E:\hcSoft\newtal\newtal\newtal\bin\Debug\newtal.pdb
+E:\hcSoft\newtal\newtal\newtal\obj\Debug\newtal.csprojResolveAssemblyReference.cache
+E:\hcSoft\newtal\newtal\newtal\obj\Debug\newtal.openForm.resources
+E:\hcSoft\newtal\newtal\newtal\obj\Debug\newtal.Properties.Resources.resources
+E:\hcSoft\newtal\newtal\newtal\obj\Debug\newtal.csproj.GenerateResource.Cache
+E:\hcSoft\newtal\newtal\newtal\obj\Debug\newtal.exe
+E:\hcSoft\newtal\newtal\newtal\obj\Debug\newtal.pdb
