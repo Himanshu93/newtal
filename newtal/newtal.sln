@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newtal", "newtal\newtal.csproj", "{B1DD4A28-C29E-4DBD-8EF1-70360A37863C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newtal_core", "newtal_core\newtal_core.csproj", "{93E501A9-82ED-4949-8EEE-88553A0B55C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newtal_sqlUtility", "newtal_sqlUtility\newtal_sqlUtility.csproj", "{EF38FDA7-E8E0-4921-B115-973CE719332E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B1DD4A28-C29E-4DBD-8EF1-70360A37863C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1DD4A28-C29E-4DBD-8EF1-70360A37863C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1DD4A28-C29E-4DBD-8EF1-70360A37863C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E501A9-82ED-4949-8EEE-88553A0B55C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E501A9-82ED-4949-8EEE-88553A0B55C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E501A9-82ED-4949-8EEE-88553A0B55C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E501A9-82ED-4949-8EEE-88553A0B55C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF38FDA7-E8E0-4921-B115-973CE719332E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF38FDA7-E8E0-4921-B115-973CE719332E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF38FDA7-E8E0-4921-B115-973CE719332E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF38FDA7-E8E0-4921-B115-973CE719332E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
