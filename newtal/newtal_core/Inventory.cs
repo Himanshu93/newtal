@@ -12,7 +12,7 @@ namespace newtal_core
         public int ContractID { get; set; }
         public int BuyID { get; set; }
         public int SellID { get; set; }
-        public DateTime DateInInventory { get; set; }
+        //public DateTime DateInInventory { get; set; }
         public decimal CostPrice { get; set; }
     }
 }

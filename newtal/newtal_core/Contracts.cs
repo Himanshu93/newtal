@@ -9,6 +9,7 @@ namespace newtal_core
     public class Contracts
     {
         public int ContractID { get; set; }
+        public string ContactName { get; set; }
         public int Open { get; set; }
         public int Close { get; set; }
         public int High { get; set; }
