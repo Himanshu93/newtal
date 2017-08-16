@@ -10,7 +10,7 @@ namespace newtal_core
     {
         public int AccountID { get; set; }
         public string Name { get; set; }
-        public int StartYear { get; set; }
-        public int EndYear { get; set; }
+        public DateTime StartYear { get; set; }
+        public DateTime EndYear { get; set; }
     }
 }

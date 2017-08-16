@@ -1,4 +1,6 @@
-﻿using System;
+﻿using newtal_core;
+using newtal_sqlUtility;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,6 +26,7 @@ namespace newtal
             Left = Top = 0;
             Width = Screen.PrimaryScreen.WorkingArea.Width;
             Height = Screen.PrimaryScreen.WorkingArea.Height;
+
             
         }
 
@@ -52,7 +55,6 @@ namespace newtal
         private void btn1_Click(object sender, EventArgs e)
         {
             tlpMainMenuContainer.Enabled = false;
-            tlpMainMenuContainer.Visible = false;
             pnlSelectCompany.Visible = true;
             
         }
@@ -65,7 +67,44 @@ namespace newtal
         private void btn2CreateCompany_Click(object sender, EventArgs e)
         {
             tlpMainMenuContainer.Enabled = false;
-            tlpMainMenuContainer.Visible = false;
+            pnlSelectCompany.Visible = true;
+            dgvSelectCompany.Visible = false;
+            pnlCreateCompany.Visible = true;
+            
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNewAccountSubmit_Click(object sender, EventArgs e)
+        {
+            string name = tbNewAccountName.Text;
+            string startDate = dtbstartDate.Text;
+            string endDate = dtbEndDate.Text;
+        }
+
+        private void notifyIcon_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void dgvSelectCompany_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dtbstartDate_ValueChanged(object sender, EventArgs e)
+        {
+            string startDate = dtbstartDate.Text;
+        }
+
+        private void LoadAccounts()
+        {
+            SqlAccountUtility accountUtil = new SqlAccountUtility("SqlAccountConnection");
+            List<Account> accounts = accountUtil.GetAllAccounts();
+            dgvSelectCompany.DataSource = accounts;
         }
     }
 }

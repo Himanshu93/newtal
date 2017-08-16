@@ -1,0 +1,6 @@
+E:\hcSoft\newtal\newtal\newtal_sqlUtility\bin\Debug\newtal_sqlUtility.exe.config
+E:\hcSoft\newtal\newtal\newtal_sqlUtility\bin\Debug\newtal_sqlUtility.exe
+E:\hcSoft\newtal\newtal\newtal_sqlUtility\bin\Debug\newtal_sqlUtility.pdb
+E:\hcSoft\newtal\newtal\newtal_sqlUtility\obj\Debug\newtal_sqlUtility.csprojResolveAssemblyReference.cache
+E:\hcSoft\newtal\newtal\newtal_sqlUtility\obj\Debug\newtal_sqlUtility.exe
+E:\hcSoft\newtal\newtal\newtal_sqlUtility\obj\Debug\newtal_sqlUtility.pdb

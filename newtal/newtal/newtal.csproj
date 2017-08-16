@@ -82,6 +82,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\newtal_core\newtal_core.csproj">
+      <Project>{93e501a9-82ed-4949-8eee-88553a0b55c9}</Project>
+      <Name>newtal_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\newtal_sqlUtility\newtal_sqlUtility.csproj">
+      <Project>{ef38fda7-e8e0-4921-b115-973ce719332e}</Project>
+      <Name>newtal_sqlUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
